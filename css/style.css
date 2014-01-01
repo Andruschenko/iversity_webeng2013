@@ -2,10 +2,24 @@ body {
 	background-color: #e8f2ff;
 }
 
+div {
+	border: 2px solid black; 
+	border-radius: 5px;
+}
+
 a {
-	font-family: sans-serif;
+	text-decoration: none;
+	color: #a20027;
 }
 
 table {
 	background-color: #ccd3ff;
+}
+
+thead {
+	background-color: #a5bcf6;
+}
+
+td {
+	text-align: center;
 }
