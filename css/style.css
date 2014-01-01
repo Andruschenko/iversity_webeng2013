@@ -7,7 +7,7 @@ div {
 	margin: auto;
 	margin-top: 8px;
 	margin-bottom: 8px;
-	padding: 10px;
+	padding: 5px;
 	background-color: #f2ecff;
 }
 
@@ -24,19 +24,38 @@ thead {
 	background-color: #a5bcf6;
 }
 
+tbody {
+	background-color: #b5d5ff;
+}
+
 td {
 	text-align: center;
+}
+
+td:first-child {
+	padding-right: 3px;
+	border-right: 1px solid black;
 }
 
 td:first-child + td {
 	text-align: left;
 	font-family: cursive;
+	border-right: 1px solid black;
 }
 
 td:first-child + td + td {
 	text-align: left;
+	border-right: 1px solid black;
+}
+
+td:first-child + td + td + td {
+	border-right: 1px solid black;
 }
 
 h1 {
+	text-align: center;
+}
+
+.middle {
 	text-align: center;
 }
