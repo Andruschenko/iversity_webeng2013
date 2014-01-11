@@ -19,7 +19,7 @@ div {
 
 a {
 	text-decoration: none;
-	color: #a20027;
+	color: blue;
 	text-align: left;
 }
 
@@ -40,6 +40,7 @@ tbody {
 td, th {
 	text-align: center;
 	background-color: #ffffff;
+	border: 2px solid #eee;
 }
 
 td:first-child {
