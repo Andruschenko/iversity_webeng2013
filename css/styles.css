@@ -19,12 +19,11 @@ div {
 
 a {
 	text-decoration: none;
-	color: blue;
+	color: #61cefb;
 	text-align: left;
 }
 
 table {
-	border: 1px solid #eee;
 	margin: auto;
 }
 
@@ -40,7 +39,7 @@ tbody {
 td, th {
 	text-align: center;
 	background-color: #ffffff;
-	border: 2px solid #eee;
+	border: 1px solid #eee;
 }
 
 td:first-child {
