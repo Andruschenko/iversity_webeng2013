@@ -1,14 +1,16 @@
 body {
-	font-type: Helvetica, sans-serif;
+	font-family: Helvetica, sans-serif;
 }
 
 div {
-	/* border: 2px solid black; */
-	text-align: center;
 	margin: auto;
 	margin-top: 8px;
 	margin-bottom: 8px;
 	padding: 5px;
+}
+
+.center_aligned {
+	text-align: center;
 }
 
 .div_with_text_stuff {
@@ -22,13 +24,13 @@ a {
 }
 
 table {
-	border: 1px solid #e5ee;
+	border: 1px solid #eee;
 	margin: auto;
 }
 
 thead {
 	background-color: #f3f6f8;
-	border-bottom: 2px solid #e5ee;
+	border-bottom: 2px solid #eee;
 }
 
 tbody {
@@ -37,7 +39,7 @@ tbody {
 
 td, th {
 	text-align: center;
-	background-color: ffffff;
+	background-color: #ffffff;
 }
 
 td:first-child {
@@ -63,4 +65,8 @@ h1 {
 
 p {
 	text-align: left;
+}
+
+fieldset {
+/*	border: 0; */
 }
