@@ -1,14 +1,18 @@
 body {
-	background-color: #e8f2ff;
+	font-type: Helvetica, sans-serif;
+	/* background-color: #e8f2ff; */
 }
 
 div {
-	border: 2px solid black;
+	/* border: 2px solid black; */
 	margin: auto;
 	margin-top: 8px;
 	margin-bottom: 8px;
 	padding: 5px;
-	background-color: #f2ecff;
+}
+
+.div_with_text_stuff {
+	background-color: #f3f6f8;
 }
 
 a {
@@ -17,39 +21,34 @@ a {
 }
 
 table {
-	background-color: #ccd3ff;
+	border: 1px solid #e5ee;
 }
 
 thead {
-	background-color: #a5bcf6;
+	background-color: #f3f6f8;
+	border-bottom: 2px solid #e5ee;
 }
 
 tbody {
-	background-color: #b5d5ff;
+	background-color: #f3f6f8;
 }
 
-td {
+td, th {
 	text-align: center;
+	background-color: ffffff;
 }
 
 td:first-child {
 	padding-right: 3px;
-	border-right: 1px solid black;
 }
 
 td:first-child + td {
 	text-align: left;
 	font-family: cursive;
-	border-right: 1px solid black;
 }
 
 td:first-child + td + td {
 	text-align: left;
-	border-right: 1px solid black;
-}
-
-td:first-child + td + td + td {
-	border-right: 1px solid black;
 }
 
 h1 {
